@@ -1,0 +1,23 @@
+[0.495s] Invoking command in '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/src/hw01_tf_demo': PYTHONPATH=/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw01_tf_demo build --build-base /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build install --record /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/install.log --install-scripts $base/lib/hw01_tf_demo --single-version-externally-managed install_data
+[0.666s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.666s]   warnings.warn(
+[0.672s] running egg_info
+[0.673s] writing ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/PKG-INFO
+[0.673s] writing dependency_links to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/dependency_links.txt
+[0.673s] writing entry points to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/entry_points.txt
+[0.673s] writing requirements to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+[0.675s] writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.675s] running build_py
+[0.676s] running install
+[0.676s] running install_lib
+[0.677s] running install_data
+[0.677s] running install_egg_info
+[0.678s] removing '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info' (and everything under it)
+[0.678s] Copying ../../build/hw01_tf_demo/hw01_tf_demo.egg-info to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.695s] Installing tf_broadcaster_node script to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+[0.696s] writing list of installed files to '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/install.log'
+[0.721s] Invoked command in '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/src/hw01_tf_demo' returned '0': PYTHONPATH=/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw01_tf_demo build --build-base /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build install --record /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/install.log --install-scripts $base/lib/hw01_tf_demo --single-version-externally-managed install_data
