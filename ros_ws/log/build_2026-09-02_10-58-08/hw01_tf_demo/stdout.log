@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/hw01_tf_demo/hw01_tf_demo.egg-info
+writing ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/entry_points.txt
+writing requirements to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/requires.txt
+writing top-level names to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/top_level.txt
+writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+copying hw01_tf_demo/__init__.py -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+copying hw01_tf_demo/tf_broadcaster_node.py -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+running install
+running install_lib
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+copying /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo/__init__.py -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+copying /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo/tf_broadcaster_node.py -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+byte-compiling /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo/tf_broadcaster_node.py to tf_broadcaster_node.cpython-310.pyc
+running install_data
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index
+creating /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+copying resource/hw01_tf_demo -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo
+running install_egg_info
+Copying ../../build/hw01_tf_demo/hw01_tf_demo.egg-info to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info
+running install_scripts
+Installing tf_broadcaster_node script to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+writing list of installed files to '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/install.log'

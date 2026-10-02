@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/entry_points.txt
+writing requirements to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/requires.txt
+writing top-level names to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/top_level.txt
+reading manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hw01_tf_demo/hw01_tf_demo.egg-info to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info
+running install_scripts
+Installing tf_broadcaster_node script to /home/hari/Downloads/hw01-mujoco-rotations/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+writing list of installed files to '/home/hari/Downloads/hw01-mujoco-rotations/ros_ws/build/hw01_tf_demo/install.log'
