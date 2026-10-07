@@ -1,0 +1,20 @@
+<mujoco model="table_with_panda">
+    <!-- Include all workspace assets -->
+    <include file="arena_description/table_arena.xml" />
+    <include file="franka/mjx_panda.xml" />
+    <include file="plate_description/model.xml"/>
+
+    <worldbody>
+      <!-- Add a green cube with a freejoint (draggable) -->
+      <body name="box" pos="0.2 -0.4 0.83">
+        <joint name="cube" type="free"/>
+        <geom type="box" name="box_geom" size="0.03 0.03 0.03"
+              condim="3" friction="1 0.5 0.5" rgba="1 0 0 1"
+              contype="2" conaffinity="1" solref="0.01 1"/>
+      </body>
+      
+      <!-- REMOVE the custom panda_base body block that had the freejoint -->
+      <!-- The included mjx_panda.xml automatically populates the "link0" body -->
+      
+    </worldbody>
+</mujoco>
