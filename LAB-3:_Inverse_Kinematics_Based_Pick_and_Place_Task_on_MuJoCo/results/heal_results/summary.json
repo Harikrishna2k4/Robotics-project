@@ -1,0 +1,98 @@
+{
+  "mink": {
+    "episodes": 30,
+    "successes": 28,
+    "success_rate": 0.9333333333333333,
+    "success_ci95": [
+      0.7867618227892791,
+      0.9815233646723066
+    ],
+    "ik_time_per_episode_mean_s": 0.9778233333333334,
+    "ik_time_per_episode_std_s": 0.5951527446267736,
+    "ik_time_per_call_mean_s": 0.06984452380952381,
+    "ik_iters_mean": 4.418666666666667,
+    "ik_iters_std": 0.21131335341935517,
+    "ik_iters_max": 12,
+    "fallback_call_fraction": 0.2261904761904762,
+    "ik_failed_calls": 0,
+    "min_clearance_min_m": 0.00611,
+    "min_clearance_mean_m": 0.010239666666666668,
+    "collision_episodes": 0,
+    "ik_vel_viol_iters": 10299,
+    "ik_vel_viol_episodes": 30,
+    "ik_lim_viol_iters": 0,
+    "ik_lim_viol_episodes": 0,
+    "ik_max_speed_rad_s": 193.126,
+    "sim_vel_viol_steps": 0,
+    "sim_max_joint_speed_rad_s": 1.023,
+    "sim_joint_limit_excess_max_rad": 0.0,
+    "place_err_mean_m": 0.013985714285714284,
+    "failure_reasons": {
+      "grasp_slip@carry": 2
+    }
+  },
+  "dls": {
+    "episodes": 30,
+    "successes": 29,
+    "success_rate": 0.9666666666666667,
+    "success_ci95": [
+      0.8332924860304112,
+      0.9940915620051425
+    ],
+    "ik_time_per_episode_mean_s": 0.6967666666666668,
+    "ik_time_per_episode_std_s": 0.24544615159609517,
+    "ik_time_per_call_mean_s": 0.04976904761904764,
+    "ik_iters_mean": 18.084000000000003,
+    "ik_iters_std": 3.2311187344110506,
+    "ik_iters_max": 217,
+    "fallback_call_fraction": 0.25476190476190474,
+    "ik_failed_calls": 0,
+    "min_clearance_min_m": 0.00239,
+    "min_clearance_mean_m": 0.009597999999999999,
+    "collision_episodes": 0,
+    "ik_vel_viol_iters": 0,
+    "ik_vel_viol_episodes": 0,
+    "ik_lim_viol_iters": 0,
+    "ik_lim_viol_episodes": 0,
+    "ik_max_speed_rad_s": 1.5,
+    "sim_vel_viol_steps": 5,
+    "sim_max_joint_speed_rad_s": 1.058,
+    "sim_joint_limit_excess_max_rad": 0.00038,
+    "place_err_mean_m": 0.009693103448275862,
+    "failure_reasons": {
+      "grasp_slip@carry": 1
+    }
+  },
+  "qp": {
+    "episodes": 30,
+    "successes": 29,
+    "success_rate": 0.9666666666666667,
+    "success_ci95": [
+      0.8332924860304112,
+      0.9940915620051425
+    ],
+    "ik_time_per_episode_mean_s": 0.7462833333333333,
+    "ik_time_per_episode_std_s": 0.31093035375314754,
+    "ik_time_per_call_mean_s": 0.053305952380952384,
+    "ik_iters_mean": 11.860999999999999,
+    "ik_iters_std": 1.7739928662920748,
+    "ik_iters_max": 101,
+    "fallback_call_fraction": 0.24285714285714285,
+    "ik_failed_calls": 0,
+    "min_clearance_min_m": 0.00546,
+    "min_clearance_mean_m": 0.009963666666666668,
+    "collision_episodes": 0,
+    "ik_vel_viol_iters": 3,
+    "ik_vel_viol_episodes": 3,
+    "ik_lim_viol_iters": 0,
+    "ik_lim_viol_episodes": 0,
+    "ik_max_speed_rad_s": 1.5,
+    "sim_vel_viol_steps": 11,
+    "sim_max_joint_speed_rad_s": 1.099,
+    "sim_joint_limit_excess_max_rad": 0.0,
+    "place_err_mean_m": 0.013475862068965519,
+    "failure_reasons": {
+      "grasp_slip@carry": 1
+    }
+  }
+}

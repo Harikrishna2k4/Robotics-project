@@ -1,0 +1,66 @@
+<mujoco model="franka_pickplace">
+
+    <!-- Load the existing Franka Panda model -->
+    <include file="mjx_panda.xml"/>
+
+    <option timestep="0.002"
+            gravity="0 0 -9.81"
+            integrator="implicitfast"/>
+
+    <statistic center="0.4 0 0.6" extent="1.5"/>
+
+    <visual>
+        <global azimuth="135" elevation="-25"/>
+    </visual>
+
+    <worldbody>
+
+        <!-- Ground plane -->
+        <geom name="floor"
+              type="plane"
+              pos="0 0 0"
+              size="2 2 0.1"
+              rgba="0.3 0.3 0.3 1"/>
+
+        <!-- Table: top surface at z = 0.80 m -->
+        <body name="table" pos="0.45 0 0.775">
+            <geom name="table_top"
+                  type="box"
+                  size="0.35 0.45 0.025"
+                  rgba="0.5 0.35 0.2 1"
+                  friction="1 0.005 0.0001"/>
+        </body>
+
+        <!-- Cube: bottom initially at z = 0.80 m -->
+        <body name="box" pos="0.35 -0.20 0.83">
+            <freejoint name="cube_free"/>
+
+            <geom name="box_geom"
+                  type="box"
+                  size="0.025 0.025 0.025"
+                  mass="0.05"
+                  rgba="0.1 0.8 0.2 1"
+                  friction="1 0.005 0.0001"
+                  condim="3"/>
+        </body>
+
+        <!-- Placement tray -->
+        <body name="tray" pos="0.60 0.20 0.81">
+
+            <geom name="tray_base"
+                  type="box"
+                  pos="0 0 0"
+                  size="0.10 0.10 0.01"
+                  rgba="0.1 0.3 0.9 1"
+                  friction="1 0.005 0.0001"/>
+
+            <site name="place_target"
+                  pos="0 0 0.01"
+                  size="0.008"
+                  rgba="1 0 0 1"/>
+
+        </body>
+
+    </worldbody>
+
+</mujoco>

@@ -1,0 +1,60 @@
+Episode 12: cube=[ 0.4151 -0.1285  0.8249], tray=[0.6  0.2  0.82]
+
+1. Moving above cube
+Target=[ 0.415 -0.129  0.955] TCP=[ 0.419 -0.128  0.963] error=0.010 m mode=oriented
+
+2. Descending to cube
+Target=[ 0.415 -0.129  0.925] TCP=[ 0.417 -0.129  0.934] error=0.010 m mode=oriented
+Target=[ 0.415 -0.129  0.895] TCP=[ 0.415 -0.129  0.904] error=0.009 m mode=oriented
+Target=[ 0.415 -0.129  0.865] TCP=[ 0.414 -0.129  0.873] error=0.009 m mode=oriented
+Target=[ 0.415 -0.129  0.835] TCP=[ 0.413 -0.129  0.843] error=0.008 m mode=oriented
+Cube at grasp: [ 0.4151 -0.1285  0.8249]
+TCP at grasp: [ 0.4137 -0.1285  0.8401]
+
+3. Closing gripper
+Cube after grasp: [ 0.4155 -0.1284  0.8249]
+TCP after grasp: [ 0.4144 -0.1284  0.8399]
+Finger positions after grasp: [0.02465 0.02475]
+Cube relative to TCP: [ 0.0012  0.     -0.015 ]
+
+Contacts involving cube:
+  box_geom <-> left_finger_pad: distance=-0.000301 m
+  box_geom <-> left_finger_pad: distance=-0.000346 m
+  box_geom <-> left_finger_pad: distance=-0.000347 m
+  box_geom <-> left_finger_pad: distance=-0.000303 m
+  box_geom <-> right_finger_pad: distance=-0.000345 m
+  box_geom <-> right_finger_pad: distance=-0.000301 m
+  box_geom <-> right_finger_pad: distance=-0.000302 m
+  box_geom <-> right_finger_pad: distance=-0.000347 m
+  box_geom <-> table_top: distance=-0.000171 m
+  box_geom <-> table_top: distance=-0.000152 m
+  box_geom <-> table_top: distance=-0.000053 m
+  box_geom <-> table_top: distance=-0.000072 m
+
+4. Lifting cube
+Target=[ 0.415 -0.129  0.875] TCP=[ 0.416 -0.128  0.867] error=0.008 m mode=oriented
+Target=[ 0.415 -0.129  0.915] TCP=[ 0.416 -0.128  0.905] error=0.010 m mode=oriented
+Target=[ 0.415 -0.129  0.955] TCP=[ 0.415 -0.128  0.945] error=0.010 m mode=oriented
+Target=[ 0.415 -0.129  0.995] TCP=[ 0.414 -0.128  0.984] error=0.011 m mode=oriented
+Cube after lifting: [ 0.4154 -0.1279  0.967 ]
+TCP after lifting: [ 0.4139 -0.128   0.9837]
+Finger positions after lifting: [0.02465 0.02475]
+Cube displacement during lift: [-0.0002  0.0005  0.1421]
+
+5. Moving above tray
+Target=[0.599 0.2   1.025] TCP=[0.589 0.194 1.02 ] error=0.012 m mode=oriented
+
+6. Lowering cube
+Target=[0.599 0.2   0.987] TCP=[0.595 0.198 0.995] error=0.008 m mode=oriented
+Target=[0.599 0.2   0.95 ] TCP=[0.597 0.2   0.961] error=0.011 m mode=oriented
+Target=[0.599 0.2   0.912] TCP=[0.598 0.2   0.924] error=0.011 m mode=oriented
+Target=[0.599 0.2   0.875] TCP=[0.597 0.2   0.885] error=0.010 m mode=oriented
+Cube before release: [0.6013 0.1997 0.8607]
+TCP before release: [0.5968 0.1996 0.8804]
+
+7. Releasing cube
+Final cube: [0.5987 0.1997 0.8449]
+Target centre: [0.6  0.2  0.86]
+XY error: 0.0013 m
+Result: SUCCESS
+

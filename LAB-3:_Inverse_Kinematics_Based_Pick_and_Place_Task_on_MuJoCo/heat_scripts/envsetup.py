@@ -32,10 +32,10 @@ FLOOR_Z = -0.75
 
 CUBE_SIZE = 0.05
 CUBE_MASS = 0.05
-CUBE_FRICTION = (1.5, 0.02, 0.002)
+CUBE_FRICTION = (0.8, 0.01, 0.001)
 
-SPAWN_X = (0.28, 0.58)
-SPAWN_Y = (0.08, 0.34)
+SPAWN_X = (0.22, 0.65)
+SPAWN_Y = (0.00, 0.42)
 SPAWN_YAW = (-np.pi / 4, np.pi / 4)
 
 TRAY_CENTER = (0.43, -0.22)
